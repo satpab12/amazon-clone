@@ -6,15 +6,16 @@
 
 .clone {
     background-color: rgb(87, 76, 76);
-    height: 70px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    text-align: center;
     padding-bottom: 10px;
     color: #febd68;
-    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5)
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 a {
@@ -58,6 +59,8 @@ a {
 
 .border:hover {
     border: 1.5px solid white;
+    width: cover;
+    height: cover;
 }
 
 /**box2**/
@@ -90,7 +93,7 @@ a {
 
 .search-select {
     background-color: #f3f3f3;
-    width: 50px;
+    width: 200px;
     text-align: center;
     border-top-left-radius:4px ;
     border-bottom-left-radius:4px;
@@ -134,7 +137,7 @@ span {
 /** box5 **/
 
 .nav-cart i {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .nav-cart {
@@ -283,6 +286,7 @@ ul p {
     background-size: cover;
     height: 50px;
     width: 100px;
+    margin-right: 700px;
 }
 
 .foot-panel4 {
@@ -298,9 +302,28 @@ ul p {
 
 .pages {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .copyright {
     margin-top: 5px;
     text-align: center;
+}
+
+.language {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.pages1 {
+    margin-right: 20px;
+}
+
+.pages2 {
+    margin-right: 20px;
+}
+
+.pages2 {
+    margin-right: 20px;
 }
